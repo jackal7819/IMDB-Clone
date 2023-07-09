@@ -16,9 +16,9 @@ const Header: FC = () => {
                 <Link href='/'>
                     <h2 className='text-2xl'>
                         <span className='px-2 py-1 mr-1 font-bold rounded-lg bg-amber-500'>
-                            IMdb
+                            CINE
                         </span>
-                        <span className='hidden text- xl sm:inline'>CLONE</span>
+                        <span className='hidden text- xl sm:inline'>World</span>
                     </h2>
                 </Link>
             </div>

@@ -6,7 +6,7 @@ import DarkModeSwitch from './DarkModeSwitch';
 
 const Header: FC = () => {
     return (
-        <div className='flex items-center justify-between max-w-6xl py-6 mx-2 sm:mx-auto'>
+        <div className='flex items-center justify-between max-w-6xl py-4 mx-2 sm:mx-auto'>
             <div className='flex'>
                 <MenuItem title='HOME' address='/' Icon={RiHome4Fill} />
                 <MenuItem title='ABOUT' address='/about' Icon={RiFileInfoFill} />

@@ -1,10 +1,8 @@
-import React from 'react';
-
 const About = () => {
     return (
-        <div className='max-w-4xl mx-auto mt-10 space-y-4'>
+        <div className='max-w-6xl p-4 mx-auto mt-10 space-y-4'>
             <h1 className='text-2xl font-medium text-center text-amber-600'>
-                About
+                ABOUT
             </h1>
             <p>
                 Hello! My name is Viktor Filippov, and I am a beginner Frontend

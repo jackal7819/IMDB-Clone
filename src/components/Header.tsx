@@ -18,7 +18,7 @@ const Header: FC = () => {
                         <span className='px-2 py-1 mr-1 font-bold rounded-lg bg-amber-500'>
                             CINE
                         </span>
-                        <span className='hidden text- xl sm:inline'>World</span>
+                        <span className='hidden pr-4 text-xl sm:inline lg:pr-6'>World</span>
                     </h2>
                 </Link>
             </div>

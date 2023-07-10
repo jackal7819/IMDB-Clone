@@ -1,19 +1,21 @@
 import { FC } from 'react';
+import Card from './Card';
+import { Movie } from '@/app/page';
 
 type ResultsProps = {
-    results: {
-        id: number;
-        original_title: string;
-    }[];
+    results: Movie[];
 };
 
 const Results: FC<ResultsProps> = ({ results }) => {
     const movies = results.map((result) => (
-        <div key={result.id}>{result.original_title}</div>
+        <Card key={result.id} result={result} />
     ));
 
-    return <div>{movies}</div>;
+    return (
+        <div className='grid max-w-6xl grid-cols-1 gap-4 py-4 mx-auto 2xl:grid-cols-4 sm:grid-cols-2 lg:grid-cols-3'>
+            {movies}
+        </div>
+    );
 };
 
 export default Results;
-

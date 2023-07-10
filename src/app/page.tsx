@@ -1,9 +1,17 @@
 import Results from '@/components/Results';
 import { FC } from 'react';
 
-type Movie = {
+export type Movie = {
     id: number;
     original_title: string;
+    backdrop_path: string;
+    poster_path: string;
+    overview: string;
+    title: string;
+    name: string;
+    release_date: string;
+    first_air_date: string;
+    vote_count: number;
 };
 
 type HomeProps = {

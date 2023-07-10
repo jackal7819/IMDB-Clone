@@ -9,7 +9,7 @@ type ProvidersProps = {
 const Providers: FC<ProvidersProps> = ({ children }) => {
     return (
         <ThemeProvider enableSystem={true} attribute='class'>
-            <div className='min-h-screen text-gray-700 transition-colors duration-300 select-none dark:bg-gray-700 dark:text-gray-200'>
+            <div className='min-h-screen text-gray-800 transition-colors duration-300 bg-orange-100 select-none dark:bg-gray-800 dark:text-gray-200'>
                 {children}
             </div>
         </ThemeProvider>

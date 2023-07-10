@@ -18,7 +18,8 @@ const Home: FC<HomeProps> = async ({ searchParams }) => {
     const fetchData = async (selectedGenre: string) => {
         try {
             const url = `https://api.themoviedb.org/3/movie/${selectedGenre}?api_key=${API_KEY}&language=en-US&page=1`;
-            const res = await fetch(url, { next: { revalidate: 10000 } });
+            const res = await fetch(url);
+            // const res = await fetch(url, { next: { revalidate: 10000 } });
             const data = await res.json();
             results = data.results;
         } catch (error) {

@@ -1,7 +1,7 @@
-import { FC } from 'react';
 import NavbarItem from './NavbarItem';
+import { NextPage } from 'next';
 
-const Navbar: FC = () => {
+const Navbar: NextPage = () => {
     return (
         <div className='flex flex-wrap gap-5 p-4 bg-orange-200 justify-evenly dark:bg-gray-600 lg:text-lg'>
             <NavbarItem title='Now Playing' param='nowPlaying' />

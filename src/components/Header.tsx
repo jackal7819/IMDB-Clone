@@ -1,10 +1,10 @@
-import {FC} from 'react';
-import { RiHome4Fill, RiFileInfoFill } from 'react-icons/ri';
 import Link from 'next/link';
 import MenuItem from './MenuItem';
 import DarkModeSwitch from './DarkModeSwitch';
+import { NextPage } from 'next';
+import { RiHome4Fill, RiFileInfoFill } from 'react-icons/ri';
 
-const Header: FC = () => {
+const Header: NextPage = () => {
     return (
         <div className='flex items-center justify-between max-w-6xl py-4 mx-2 sm:mx-auto'>
             <div className='flex'>

@@ -1,4 +1,5 @@
-import { FC, ComponentType } from 'react';
+import { NextPage } from 'next';
+import { ComponentType } from 'react';
 import Link from 'next/link';
 
 type MenuItemProps = {
@@ -7,7 +8,7 @@ type MenuItemProps = {
     Icon: ComponentType<{ className: string }>;
 };
 
-const MenuItem: FC<MenuItemProps> = ({ title, address, Icon }) => {
+const MenuItem: NextPage<MenuItemProps> = ({ title, address, Icon }) => {
     return (
         <div>
             <Link href={address} className='mx-4 lg:mx-6 hover:text-amber-600'>

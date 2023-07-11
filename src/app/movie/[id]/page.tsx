@@ -17,7 +17,7 @@ const MoviePage: NextPage<MoviePageProps> = async ({ params }) => {
     const movieId = params.id;
     const movie = await getMovie(movieId);
     return (
-        <div className='w-full mx-auto mt-5 lg:mt-20'>
+        <div className='w-full mx-auto mt-5 lg:mt-10'>
             <div className='flex flex-col items-center content-center max-w-6xl p-4 mx-auto xl:flex-row md:space-x-6'>
                 <Image
                     src={`https://image.tmdb.org/t/p/original/${

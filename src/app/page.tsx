@@ -12,6 +12,7 @@ export type Movie = {
     release_date: string;
     first_air_date: string;
     vote_count: number;
+    vote_average: number;
 };
 
 type HomeProps = {

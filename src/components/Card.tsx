@@ -19,7 +19,7 @@ const Card: FC<CardProps> = ({ result }) => {
                     width={500}
                     height={300}
                     alt='Movie'
-                    className='h-auto max-w-full mx-auto transition-opacity duration-200 rounded-lg group-hover:opacity-80'
+                    className='h-auto max-w-full mx-auto mb-3 transition-opacity duration-200 rounded-lg group-hover:opacity-80'
                     placeholder='blur'
                     blurDataURL='/bean_eater.svg'
                 />

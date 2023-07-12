@@ -1,5 +1,5 @@
+import { NextPage } from 'next';
 import Results from '@/components/Results';
-import { FC } from 'react';
 
 export type Movie = {
     id: number;
@@ -20,7 +20,7 @@ type HomeProps = {
     searchParams: { genre: string };
 };
 
-const Home: FC<HomeProps> = async ({ searchParams }) => {
+const Home: NextPage<HomeProps> = async ({ searchParams }) => {
     const genre = searchParams.genre || 'popular';
     const API_KEY = process.env.API_KEY;
     let results: Movie[] = [];

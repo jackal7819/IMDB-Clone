@@ -1,6 +1,7 @@
+import { NextPage } from 'next';
 import Image from 'next/image';
 
-const Loading = () => {
+const Loading: NextPage = () => {
     return (
         <div className='flex items-center justify-center h-[70vh]'>
             <Image

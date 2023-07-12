@@ -1,6 +1,6 @@
 # CINE World
 
-### CINE World is a movie database website built using the TMDB API. It allows users to view information about movies, ratings, what's currently on top. The goals of the project are to provide a complete movie database, make it easy for users to search and explore movies, and see the rating and votes.
+CINE World is a movie database website built using the TMDB API. It allows users to view information about movies, ratings, what's currently on top. The goals of the project are to provide a complete movie database, make it easy for users to search and explore movies, and see the rating and votes.
 
 ## NEXT.js, TypeScript, Tailwind CSS, TMDB
 
